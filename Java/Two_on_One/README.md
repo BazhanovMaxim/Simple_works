@@ -27,3 +27,13 @@ public class TwoToOne {
     }
 }
 ```
+
+```
+public class TwoToOne {
+    
+    public static String longest (String s1, String s2) {
+        String all = "abcdefghijklmnopqrstuvwxyz";
+        return all.replaceAll("[^" + s1+s2 + "]", "");
+    }
+}
+```
