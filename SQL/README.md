@@ -13,7 +13,6 @@ Mena | Argentina |
 Lukas | China | 
 Maxim | USA | 
 
-### Задача 1:
-Показать все страны, кроме: Мексика, США, Канада
+#### Задача 1: показать все страны, кроме: Мексика, США, Канада
 
 ``` select * from travelers   WHERE "country" NOT IN ('Mexico', 'USA', 'Canada') ```
