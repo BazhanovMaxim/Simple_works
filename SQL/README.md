@@ -1,6 +1,6 @@
 # SQL задачи
 
-Table name: ``` traveles ```
+Table name: ``` travelers ```
 
 name | country | 
 --- | --- | 
